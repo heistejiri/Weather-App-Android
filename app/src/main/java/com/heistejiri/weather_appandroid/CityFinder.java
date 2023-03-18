@@ -31,7 +31,7 @@ public class CityFinder extends AppCompatActivity {
             @Override
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
                 String newCity= editText.getText().toString();
-                Intent intent=new Intent(ityFinder.this,MainActivity.class);
+                Intent intent=new Intent(CityFinder.this,MainActivity.class);
                 intent.putExtra("City",newCity);
                 startActivity(intent);
 
